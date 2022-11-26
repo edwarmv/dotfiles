@@ -1,0 +1,21 @@
+require('lang.bashls')
+require('lang.tsserver')
+require('lang.angularls')
+require('lang.html')
+require('lang.cssls')
+require('lang.vimls')
+require('lang.yamlls')
+require('lang.jsonls')
+require('lang.sumneko_lua')
+require('lang.clangd')
+require('lang.taplo') -- TOML
+require('lang.tailwindcss') -- TOML
+
+-- require('lang.diagnosticls')
+-- require('lang.sqls')
+-- require('lang.ccls')
+-- require('lang.pyright')
+-- require('lang.graphql')
+-- require('lang.efm')
+-- require('lang.eslint')
+-- require('lang.lsemmet')
