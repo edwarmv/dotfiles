@@ -6,21 +6,21 @@ local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 require("lspconfig").html.setup({
   capabilities = capabilities,
-  cmd = { "html-languageserver", "--stdio" },
+  -- cmd = { "html-languageserver", "--stdio" },
   -- cmd = { "/Users/edwar/github/vscode/extensions/html-language-features/server/html-languageserver", "--stdio" },
   -- cmd = { "vscode-html-language-server", "--stdio" },
   -- cmd = { "/Users/edwar/github/vscode/extensions/html-language-features/server/vscode-html-language-server", "--stdio" },
-  init_options = {
-    configurationSection = { "html", "css", "javascript" },
-    embeddedLanguages = {
-      css = true,
-      javascript = true,
-    },
-    autoClosingTags = true,
-  },
-  settings = {
-    autoClosingTags = true,
-  },
+  -- init_options = {
+  --   configurationSection = { "html", "css", "javascript" },
+  --   embeddedLanguages = {
+  --     css = true,
+  --     javascript = true,
+  --   },
+  --   autoClosingTags = true,
+  -- },
+  -- settings = {
+  --   autoClosingTags = true,
+  -- },
   on_attach = function(client, bufnr)
     maps.lsp(bufnr)
   end,

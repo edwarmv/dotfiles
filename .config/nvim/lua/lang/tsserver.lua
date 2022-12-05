@@ -1,4 +1,3 @@
-local lsp_signature = require("config.lsp_signature")
 local maps = require("maps")
 --
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
@@ -35,8 +34,6 @@ require("typescript").setup({
     },
     on_attach = function(client, bufnr)
       maps.lsp(bufnr)
-
-      require("lsp_signature").on_attach(lsp_signature.config, bufnr)
     end,
   },
 })

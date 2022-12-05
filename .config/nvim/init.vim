@@ -4,7 +4,7 @@ let g:polyglot_disabled = ['autoindent', 'sensible', 'ftdetect']
 " =========================================================
 " let &t_Cs = "\e[4:3m"
 " let &t_Ce = "\e[4:0m"
-let g:python3_host_prog = '/Users/edwar/.asdf/shims/python3'
+let g:python3_host_prog = expand('~') . '/.asdf/shims/python3'
 " set jumpoptions="view"
 " set lazyredraw
 " set nostartofline

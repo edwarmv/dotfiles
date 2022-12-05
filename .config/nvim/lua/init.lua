@@ -19,7 +19,7 @@ require("plugins")
 vim.diagnostic.config({
   -- underline = false,
   virtual_text = true,
-  update_in_insert = true,
+  update_in_insert = false,
   signs = true,
   severity_sort = true,
   -- float = {

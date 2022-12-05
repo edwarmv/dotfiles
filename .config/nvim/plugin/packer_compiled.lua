@@ -291,6 +291,23 @@ _G.packer_plugins = {
     path = "/Users/edwarmv/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
+  ["mason-tool-installer.nvim"] = {
+    config = { 'require("config.mason-tool-installer")' },
+    loaded = true,
+    path = "/Users/edwarmv/.local/share/nvim/site/pack/packer/start/mason-tool-installer.nvim",
+    url = "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim"
+  },
+  ["mason-update-all"] = {
+    loaded = true,
+    path = "/Users/edwarmv/.local/share/nvim/site/pack/packer/start/mason-update-all",
+    url = "https://github.com/RubixDev/mason-update-all"
+  },
+  ["mason.nvim"] = {
+    config = { 'require("config.mason")' },
+    loaded = true,
+    path = "/Users/edwarmv/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
   ["noice.nvim"] = {
     config = { 'require("config.noice")' },
     loaded = true,
@@ -585,118 +602,30 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: leap.nvim
-time([[Config for leap.nvim]], true)
-require("config.leap")
-time([[Config for leap.nvim]], false)
--- Config for: LuaSnip
-time([[Config for LuaSnip]], true)
-require("config.LuaSnip")
-time([[Config for LuaSnip]], false)
--- Config for: lsp_signature.nvim
-time([[Config for lsp_signature.nvim]], true)
-require("config.lsp_signature")
-time([[Config for lsp_signature.nvim]], false)
--- Config for: lspkind-nvim
-time([[Config for lspkind-nvim]], true)
-require("config.lspkind-nvim")
-time([[Config for lspkind-nvim]], false)
--- Config for: vim-better-whitespace
-time([[Config for vim-better-whitespace]], true)
-require("config.vim-better-whitespace")
-time([[Config for vim-better-whitespace]], false)
--- Config for: lualine.nvim
-time([[Config for lualine.nvim]], true)
-require("config.lualine")
-time([[Config for lualine.nvim]], false)
--- Config for: vim-eunuch
-time([[Config for vim-eunuch]], true)
-require("config.vim-eunuch")
-time([[Config for vim-eunuch]], false)
--- Config for: noice.nvim
-time([[Config for noice.nvim]], true)
-require("config.noice")
-time([[Config for noice.nvim]], false)
--- Config for: vim-illuminate
-time([[Config for vim-illuminate]], true)
-require("config.vim-illuminate")
-time([[Config for vim-illuminate]], false)
--- Config for: null-ls.nvim
-time([[Config for null-ls.nvim]], true)
-require("config.null-ls")
-time([[Config for null-ls.nvim]], false)
--- Config for: color-picker.nvim
-time([[Config for color-picker.nvim]], true)
-require("config.color-picker")
-time([[Config for color-picker.nvim]], false)
--- Config for: vim-markdown
-time([[Config for vim-markdown]], true)
-require("config.vim-markdown")
-time([[Config for vim-markdown]], false)
--- Config for: nvim-cmp
-time([[Config for nvim-cmp]], true)
-require("config.nvim-cmp")
-time([[Config for nvim-cmp]], false)
--- Config for: nvim-hlslens
-time([[Config for nvim-hlslens]], true)
-require("config.nvim-hlslens")
-time([[Config for nvim-hlslens]], false)
--- Config for: cutlass.nvim
-time([[Config for cutlass.nvim]], true)
-require("config.cutlass")
-time([[Config for cutlass.nvim]], false)
--- Config for: vim-move
-time([[Config for vim-move]], true)
-require("config.vim-move")
-time([[Config for vim-move]], false)
--- Config for: nvim-notify
-time([[Config for nvim-notify]], true)
-require("config.nvim-notify")
-time([[Config for nvim-notify]], false)
--- Config for: vim-obsession
-time([[Config for vim-obsession]], true)
-require("config.vim-obsession")
-time([[Config for vim-obsession]], false)
--- Config for: nvim-surround
-time([[Config for nvim-surround]], true)
-require("config.nvim-surround")
-time([[Config for nvim-surround]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-require("config.nvim-tree")
-time([[Config for nvim-tree.lua]], false)
--- Config for: nvim-treesitter
-time([[Config for nvim-treesitter]], true)
-require("config.treesitter")
-time([[Config for nvim-treesitter]], false)
--- Config for: fidget.nvim
-time([[Config for fidget.nvim]], true)
-require("config.fidget")
-time([[Config for fidget.nvim]], false)
--- Config for: nvim-web-devicons
-time([[Config for nvim-web-devicons]], true)
-require("config.nvim-web-devicons")
-time([[Config for nvim-web-devicons]], false)
--- Config for: flit.nvim
-time([[Config for flit.nvim]], true)
-require("config.flit")
-time([[Config for flit.nvim]], false)
--- Config for: nvim-window.git
-time([[Config for nvim-window.git]], true)
-require("config.nvim-window")
-time([[Config for nvim-window.git]], false)
+-- Config for: hop.nvim
+time([[Config for hop.nvim]], true)
+require("config.hop")
+time([[Config for hop.nvim]], false)
 -- Config for: fm-nvim
 time([[Config for fm-nvim]], true)
 require("config.fm-nvim")
 time([[Config for fm-nvim]], false)
--- Config for: nvim-lspconfig
-time([[Config for nvim-lspconfig]], true)
-require("config.nvim-lspconfig")
-time([[Config for nvim-lspconfig]], false)
--- Config for: dirbuf.nvim
-time([[Config for dirbuf.nvim]], true)
-require("config.dirbuf")
-time([[Config for dirbuf.nvim]], false)
+-- Config for: substitute.nvim
+time([[Config for substitute.nvim]], true)
+require("config.substitute")
+time([[Config for substitute.nvim]], false)
+-- Config for: inc-rename.nvim
+time([[Config for inc-rename.nvim]], true)
+require("config.inc-rename")
+time([[Config for inc-rename.nvim]], false)
+-- Config for: incline.nvim
+time([[Config for incline.nvim]], true)
+require("config.incline")
+time([[Config for incline.nvim]], false)
+-- Config for: workspaces.nvim
+time([[Config for workspaces.nvim]], true)
+require("config.workspaces")
+time([[Config for workspaces.nvim]], false)
 -- Config for: fzf.vim
 time([[Config for fzf.vim]], true)
 require("config.fzf")
@@ -705,82 +634,178 @@ time([[Config for fzf.vim]], false)
 time([[Config for yanky.nvim]], true)
 require("config.yanky")
 time([[Config for yanky.nvim]], false)
--- Config for: git-conflict.nvim
-time([[Config for git-conflict.nvim]], true)
-require("config.git-conflict")
-time([[Config for git-conflict.nvim]], false)
--- Config for: which-key.nvim
-time([[Config for which-key.nvim]], true)
-require("config.which-key")
-time([[Config for which-key.nvim]], false)
--- Config for: gitsigns.nvim
-time([[Config for gitsigns.nvim]], true)
-require("config.gitsigns")
-time([[Config for gitsigns.nvim]], false)
--- Config for: substitute.nvim
-time([[Config for substitute.nvim]], true)
-require("config.substitute")
-time([[Config for substitute.nvim]], false)
--- Config for: dressing.nvim
-time([[Config for dressing.nvim]], true)
-require("config.dressing")
-time([[Config for dressing.nvim]], false)
--- Config for: diffview.nvim
-time([[Config for diffview.nvim]], true)
-require("config.diffview")
-time([[Config for diffview.nvim]], false)
--- Config for: hop.nvim
-time([[Config for hop.nvim]], true)
-require("config.hop")
-time([[Config for hop.nvim]], false)
--- Config for: workspaces.nvim
-time([[Config for workspaces.nvim]], true)
-require("config.workspaces")
-time([[Config for workspaces.nvim]], false)
--- Config for: hydra.nvim
-time([[Config for hydra.nvim]], true)
-require("config.hydra")
-time([[Config for hydra.nvim]], false)
--- Config for: telescope.nvim
-time([[Config for telescope.nvim]], true)
-require("config.telescope")
-time([[Config for telescope.nvim]], false)
--- Config for: inc-rename.nvim
-time([[Config for inc-rename.nvim]], true)
-require("config.inc-rename")
-time([[Config for inc-rename.nvim]], false)
 -- Config for: todo-comments.nvim
 time([[Config for todo-comments.nvim]], true)
 require("config.todo-comments")
 time([[Config for todo-comments.nvim]], false)
--- Config for: incline.nvim
-time([[Config for incline.nvim]], true)
-require("config.incline")
-time([[Config for incline.nvim]], false)
+-- Config for: lspkind-nvim
+time([[Config for lspkind-nvim]], true)
+require("config.lspkind-nvim")
+time([[Config for lspkind-nvim]], false)
 -- Config for: toggleterm.nvim
 time([[Config for toggleterm.nvim]], true)
 require("config.toggleterm")
 time([[Config for toggleterm.nvim]], false)
+-- Config for: lualine.nvim
+time([[Config for lualine.nvim]], true)
+require("config.lualine")
+time([[Config for lualine.nvim]], false)
+-- Config for: mason-tool-installer.nvim
+time([[Config for mason-tool-installer.nvim]], true)
+require("config.mason-tool-installer")
+time([[Config for mason-tool-installer.nvim]], false)
+-- Config for: vim-better-whitespace
+time([[Config for vim-better-whitespace]], true)
+require("config.vim-better-whitespace")
+time([[Config for vim-better-whitespace]], false)
+-- Config for: vim-eunuch
+time([[Config for vim-eunuch]], true)
+require("config.vim-eunuch")
+time([[Config for vim-eunuch]], false)
+-- Config for: mason.nvim
+time([[Config for mason.nvim]], true)
+require("config.mason")
+time([[Config for mason.nvim]], false)
+-- Config for: noice.nvim
+time([[Config for noice.nvim]], true)
+require("config.noice")
+time([[Config for noice.nvim]], false)
+-- Config for: nvim-lspconfig
+time([[Config for nvim-lspconfig]], true)
+require("config.nvim-lspconfig")
+time([[Config for nvim-lspconfig]], false)
+-- Config for: LuaSnip
+time([[Config for LuaSnip]], true)
+require("config.LuaSnip")
+time([[Config for LuaSnip]], false)
+-- Config for: null-ls.nvim
+time([[Config for null-ls.nvim]], true)
+require("config.null-ls")
+time([[Config for null-ls.nvim]], false)
+-- Config for: nvim-cmp
+time([[Config for nvim-cmp]], true)
+require("config.nvim-cmp")
+time([[Config for nvim-cmp]], false)
+-- Config for: vim-illuminate
+time([[Config for vim-illuminate]], true)
+require("config.vim-illuminate")
+time([[Config for vim-illuminate]], false)
+-- Config for: nvim-hlslens
+time([[Config for nvim-hlslens]], true)
+require("config.nvim-hlslens")
+time([[Config for nvim-hlslens]], false)
+-- Config for: nvim-notify
+time([[Config for nvim-notify]], true)
+require("config.nvim-notify")
+time([[Config for nvim-notify]], false)
+-- Config for: flit.nvim
+time([[Config for flit.nvim]], true)
+require("config.flit")
+time([[Config for flit.nvim]], false)
+-- Config for: nvim-surround
+time([[Config for nvim-surround]], true)
+require("config.nvim-surround")
+time([[Config for nvim-surround]], false)
+-- Config for: color-picker.nvim
+time([[Config for color-picker.nvim]], true)
+require("config.color-picker")
+time([[Config for color-picker.nvim]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+require("config.nvim-tree")
+time([[Config for nvim-tree.lua]], false)
+-- Config for: vim-markdown
+time([[Config for vim-markdown]], true)
+require("config.vim-markdown")
+time([[Config for vim-markdown]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+require("config.treesitter")
+time([[Config for nvim-treesitter]], false)
+-- Config for: nvim-window.git
+time([[Config for nvim-window.git]], true)
+require("config.nvim-window")
+time([[Config for nvim-window.git]], false)
+-- Config for: nvim-web-devicons
+time([[Config for nvim-web-devicons]], true)
+require("config.nvim-web-devicons")
+time([[Config for nvim-web-devicons]], false)
+-- Config for: vim-move
+time([[Config for vim-move]], true)
+require("config.vim-move")
+time([[Config for vim-move]], false)
+-- Config for: cutlass.nvim
+time([[Config for cutlass.nvim]], true)
+require("config.cutlass")
+time([[Config for cutlass.nvim]], false)
+-- Config for: vim-obsession
+time([[Config for vim-obsession]], true)
+require("config.vim-obsession")
+time([[Config for vim-obsession]], false)
+-- Config for: diffview.nvim
+time([[Config for diffview.nvim]], true)
+require("config.diffview")
+time([[Config for diffview.nvim]], false)
+-- Config for: hydra.nvim
+time([[Config for hydra.nvim]], true)
+require("config.hydra")
+time([[Config for hydra.nvim]], false)
+-- Config for: dirbuf.nvim
+time([[Config for dirbuf.nvim]], true)
+require("config.dirbuf")
+time([[Config for dirbuf.nvim]], false)
+-- Config for: telescope.nvim
+time([[Config for telescope.nvim]], true)
+require("config.telescope")
+time([[Config for telescope.nvim]], false)
+-- Config for: dressing.nvim
+time([[Config for dressing.nvim]], true)
+require("config.dressing")
+time([[Config for dressing.nvim]], false)
+-- Config for: leap.nvim
+time([[Config for leap.nvim]], true)
+require("config.leap")
+time([[Config for leap.nvim]], false)
+-- Config for: git-conflict.nvim
+time([[Config for git-conflict.nvim]], true)
+require("config.git-conflict")
+time([[Config for git-conflict.nvim]], false)
+-- Config for: gitsigns.nvim
+time([[Config for gitsigns.nvim]], true)
+require("config.gitsigns")
+time([[Config for gitsigns.nvim]], false)
+-- Config for: lsp_signature.nvim
+time([[Config for lsp_signature.nvim]], true)
+require("config.lsp_signature")
+time([[Config for lsp_signature.nvim]], false)
+-- Config for: fidget.nvim
+time([[Config for fidget.nvim]], true)
+require("config.fidget")
+time([[Config for fidget.nvim]], false)
+-- Config for: which-key.nvim
+time([[Config for which-key.nvim]], true)
+require("config.which-key")
+time([[Config for which-key.nvim]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Filetype lazy-loads
 time([[Defining lazy-load filetype autocommands]], true)
-vim.cmd [[au FileType csv ++once lua require("packer.load")({'csv.vim'}, { ft = "csv" }, _G.packer_plugins)]]
 vim.cmd [[au FileType qf ++once lua require("packer.load")({'nvim-bqf'}, { ft = "qf" }, _G.packer_plugins)]]
+vim.cmd [[au FileType csv ++once lua require("packer.load")({'csv.vim'}, { ft = "csv" }, _G.packer_plugins)]]
 vim.cmd [[au FileType http ++once lua require("packer.load")({'rest.nvim'}, { ft = "http" }, _G.packer_plugins)]]
 time([[Defining lazy-load filetype autocommands]], false)
   -- Event lazy-loads
 time([[Defining lazy-load event autocommands]], true)
-vim.cmd [[au VimEnter * ++once lua require("packer.load")({'vim-matchup', 'emmet-vim', 'nvim-autopairs', 'Comment.nvim'}, { event = "VimEnter *" }, _G.packer_plugins)]]
+vim.cmd [[au VimEnter * ++once lua require("packer.load")({'Comment.nvim', 'emmet-vim', 'nvim-autopairs', 'vim-matchup'}, { event = "VimEnter *" }, _G.packer_plugins)]]
 time([[Defining lazy-load event autocommands]], false)
 vim.cmd("augroup END")
 vim.cmd [[augroup filetypedetect]]
-time([[Sourcing ftdetect script at: /Users/edwarmv/.local/share/nvim/site/pack/packer/opt/rest.nvim/ftdetect/http.vim]], true)
-vim.cmd [[source /Users/edwarmv/.local/share/nvim/site/pack/packer/opt/rest.nvim/ftdetect/http.vim]]
-time([[Sourcing ftdetect script at: /Users/edwarmv/.local/share/nvim/site/pack/packer/opt/rest.nvim/ftdetect/http.vim]], false)
 time([[Sourcing ftdetect script at: /Users/edwarmv/.local/share/nvim/site/pack/packer/opt/csv.vim/ftdetect/csv.vim]], true)
 vim.cmd [[source /Users/edwarmv/.local/share/nvim/site/pack/packer/opt/csv.vim/ftdetect/csv.vim]]
 time([[Sourcing ftdetect script at: /Users/edwarmv/.local/share/nvim/site/pack/packer/opt/csv.vim/ftdetect/csv.vim]], false)
+time([[Sourcing ftdetect script at: /Users/edwarmv/.local/share/nvim/site/pack/packer/opt/rest.nvim/ftdetect/http.vim]], true)
+vim.cmd [[source /Users/edwarmv/.local/share/nvim/site/pack/packer/opt/rest.nvim/ftdetect/http.vim]]
+time([[Sourcing ftdetect script at: /Users/edwarmv/.local/share/nvim/site/pack/packer/opt/rest.nvim/ftdetect/http.vim]], false)
 vim.cmd("augroup END")
 
 _G._packer.inside_compile = false

@@ -22,6 +22,7 @@ require("nvim-treesitter.configs").setup({
     "regex",
     "markdown",
     "markdown_inline",
+    "python",
     -- "norg",
     -- "norg_meta",
     -- "norg_table",

@@ -66,7 +66,18 @@ return require("packer").startup(function(use)
   --   -- disable = true,
   -- })
 
-  -- use("kabouzeid/nvim-lspinstall")
+  use({
+    "williamboman/mason.nvim",
+    requires = {
+      -- "williamboman/mason-lspconfig.nvim",
+      "RubixDev/mason-update-all",
+      {
+        "WhoIsSethDaniel/mason-tool-installer.nvim",
+        config = [[require("config.mason-tool-installer")]],
+      },
+    },
+    config = [[require("config.mason")]],
+  })
 
   ---@diagnostic disable-next-line: undefined-global
   use_rocks("penlight")

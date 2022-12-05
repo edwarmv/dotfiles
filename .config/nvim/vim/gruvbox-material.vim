@@ -77,6 +77,22 @@ function! s:gruvbox_material_custom() abort
   call gruvbox_material#highlight('NeoTreeGitConflict', l:palette.orange, l:palette.none, 'bold,italic')
   call gruvbox_material#highlight('NeoTreeGitUntracked', l:palette.orange, l:palette.none, 'italic')
 
+call gruvbox_material#highlight('MasonHighlightBlock', l:palette.bg0, l:palette.blue)
+call gruvbox_material#highlight('MasonLink', l:palette.blue, l:palette.none)
+call gruvbox_material#highlight('MasonHighlight', l:palette.blue, l:palette.none)
+call gruvbox_material#highlight('MasonHighlightBlockBold', l:palette.bg0, l:palette.blue, 'bold')
+call gruvbox_material#highlight('MasonHighlightBlockBoldSecondary', l:palette.bg0, l:palette.orange, 'bold')
+call gruvbox_material#highlight('MasonHighlightBlockSecondary', l:palette.bg0, l:palette.orange)
+call gruvbox_material#highlight('MasonHighlightSecondary', l:palette.orange, l:palette.none)
+call gruvbox_material#highlight('MasonHeader', l:palette.bg0, l:palette.orange, 'bold')
+call gruvbox_material#highlight('MasonHeaderSecondary', l:palette.bg0, l:palette.blue, 'bold')
+call gruvbox_material#highlight('MasonError', l:palette.red, l:palette.none)
+call gruvbox_material#highlight('MasonMuted', l:palette.grey1, l:palette.none)
+call gruvbox_material#highlight('MasonHeading', l:palette.fg0, l:palette.none, 'bold')
+call gruvbox_material#highlight('MasonMutedBlock', l:palette.bg0, l:palette.grey1)
+call gruvbox_material#highlight('MasonMutedBlockBold', l:palette.bg0, l:palette.grey1, 'bold')
+call gruvbox_material#highlight('MasonNormal', l:palette.fg0, l:palette.none)
+
   " call gruvbox_material#highlight('LspFloatWinNormal', l:palette.fg1, l:palette.none)
   " call gruvbox_material#highlight('LspSagaCodeActionContent', l:palette.fg1, l:palette.none)
 

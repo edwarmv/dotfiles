@@ -26,10 +26,12 @@ require("dressing").setup({
     max_width = 0.9,
     min_width = 0.2,
 
-    -- Window transparency (0-100)
-    winblend = 0,
-    -- Change default highlight groups (see :help winhl)
-    winhighlight = "NormalFloat:Normal,FloatBorder:FloatBorder",
+    win_options = {
+      -- Window transparency (0-100)
+      winblend = 0,
+      -- Change default highlight groups (see :help winhl)
+      winhighlight = "NormalFloat:Normal,FloatBorder:FloatBorder",
+    },
 
     -- Set to `false` to disable
     mappings = {
@@ -103,10 +105,12 @@ require("dressing").setup({
       -- 'editor' and 'win' will default to being centered
       relative = "cursor",
 
-      -- Window transparency (0-100)
-      winblend = 0,
-      -- Change default highlight groups (see :help winhl)
-      winhighlight = "NormalFloat:Normal,FloatBorder:FloatBorder",
+      win_options = {
+        -- Window transparency (0-100)
+        winblend = 0,
+        -- Change default highlight groups (see :help winhl)
+        winhighlight = "NormalFloat:Normal,FloatBorder:FloatBorder",
+      },
 
       -- These can be integers or a float between 0 and 1 (e.g. 0.4 for 40%)
       -- the min_ and max_ options can be a list of mixed types.

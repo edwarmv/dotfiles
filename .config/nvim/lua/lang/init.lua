@@ -10,6 +10,7 @@ require('lang.sumneko_lua')
 require('lang.clangd')
 require('lang.taplo') -- TOML
 require('lang.tailwindcss') -- TOML
+require('lang.pyright')
 
 -- require('lang.diagnosticls')
 -- require('lang.sqls')
