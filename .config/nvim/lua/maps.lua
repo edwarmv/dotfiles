@@ -35,7 +35,7 @@ M.lsp = function(bufnr)
   vim.keymap.set("n", "<leader>f", "<cmd>lua vim.lsp.buf.format()<cr>", opts)
 
   -- https://github.com/jose-elias-alvarez/null-ls.nvim/issues/720#issuecomment-1133609413
-  vim.keymap.set("v", "<leader>f", "<esc><cmd>lua vim.lsp.buf.range_formatting()<cr>", opts)
+  vim.keymap.set("v", "<leader>f", "<cmd>lua vim.lsp.buf.format()<cr>", opts)
 
   vim.keymap.set("n", "<leader>d", "<cmd>lua vim.diagnostic.open_float({ border = 'single' })<cr>", opts)
 

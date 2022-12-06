@@ -7,7 +7,7 @@ require("toggleterm").setup({
       return vim.o.columns * 0.5
     end
   end,
-  open_mapping = [[<c-\><c-\>]],
+  open_mapping = [[<m-\>]],
   -- on_open = fun(t: Terminal), -- function to run when the terminal opens
   -- on_close = fun(t: Terminal), -- function to run when the terminal closes
   highlights = {
@@ -47,4 +47,4 @@ require("toggleterm").setup({
 })
 
 -- vim.keymap.set("t", "<c-\\>", "<c-\\><c-n>")
-vim.cmd("autocmd! TermOpen term://* tmap <c-\\><c-\\> <cmd>ToggleTerm<cr>")
+vim.cmd("autocmd! TermOpen term://* tmap <m-\\> <cmd>ToggleTerm<cr>")
