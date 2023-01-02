@@ -1,0 +1,33 @@
+# name: 'Gruvbox Material - Dark'
+# preferred_background: 32302f
+
+fish_color_normal d4be98
+fish_color_command 89b482
+fish_color_keyword ea6962
+fish_color_quote 89b482
+fish_color_redirection d3869b
+fish_color_end e78a4e
+fish_color_error ea6962
+fish_color_param d4be98
+fish_color_valid_path d4be98
+fish_color_option d3869b
+fish_color_comment 928374
+fish_color_selection --background=504945
+fish_color_operator e78a4e
+fish_color_escape d3869b
+fish_color_autosuggestion 928374
+fish_color_cwd 89b482
+fish_color_cwd_root d3869b
+fish_color_user 7daea3
+fish_color_host 7daea3
+fish_color_host_remote 7daea3
+fish_color_status e78a4e
+fish_color_cancel d3869b
+fish_color_search_match --background=282828
+
+
+fish_pager_color_prefix 89b482
+fish_pager_color_completion 928374
+fish_pager_color_description 928374
+fish_pager_color_progress --background=d4be98 32302f
+fish_pager_color_selected_background --background=3c3836

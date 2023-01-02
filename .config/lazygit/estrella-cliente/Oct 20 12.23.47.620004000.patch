@@ -1,0 +1,13 @@
+--- a/src/app/components/nuevo-usuario/nuevo-usuario.component.html
++++ b/src/app/components/nuevo-usuario/nuevo-usuario.component.html
+@@ -1,10 +1,9 @@
+ <div class="container">
+ 
+   <div class="nuevo-usuario">
+ 
+-      <img src="assets/images/logo.svg" alt="logo" class="logo">
+       <h1>Nuevo Usuario</h1>
+     </div>
+ 
+     <form [formGroup]="nuevoUsuarioForm" (ngSubmit)="crearUsuario()">
+ 
